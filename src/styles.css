@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+* {
+    color: #665544;
+    text-align: left;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+    
+}
+
+#page {
+    background-color:#ffffff;
+    padding: 10px 20px 5px  20px;
+    margin: 20px auto 20px auto;   
+    width: 95%;
+    height: 50%;
+    
+}
+
+/* product details */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #fff;
+    float: right;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+ul.product {
+list-style-type: none;
+}
