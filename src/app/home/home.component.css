@@ -1,0 +1,19 @@
+#home_intro {
+  padding: 30px;
+  margin-top: 20px;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .img-intro {
+    height: 250px;
+  }
+ }
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .img-intro {
+    height: 250px;
+  }
+}

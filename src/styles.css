@@ -9,16 +9,16 @@
 
 header, section, footer, aside, nav, article, figure, figcaption {
     display: block;
-    
+
 }
 
 #page {
     background-color:#ffffff;
-    padding: 10px 20px 5px  20px;
-    margin: 20px auto 20px auto;   
+    padding: 10px 10px 5px 10px;
+    margin: 20px auto 20px auto;
     width: 95%;
     height: 50%;
-    
+
 }
 
 /* product details */
@@ -49,3 +49,18 @@ ul.breadcrumb li a:hover {
 ul.product {
 list-style-type: none;
 }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  }
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {  }
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
+
+ /* Extra large devices (large desktops) */
+/* No media query since the extra-large breakpoint has no upper bound on its width */
