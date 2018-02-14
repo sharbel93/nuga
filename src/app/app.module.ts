@@ -17,6 +17,7 @@ import { StonesComponent } from './stones/stones.component';
 import { WatchComponent } from './watch/watch.component';
 import { BraceletComponent } from './bracelet/bracelet.component';
 import { ProductRoutingModule } from '../app/product-routing/product-routing.module';
+import { AboutComponent } from './about/about.component';
 
 // import { AngularFireModule } from 'angularfire2';
 // import { AngularFirestoreModule } from 'angularfire2/firestore';
@@ -40,7 +41,8 @@ import { ProductRoutingModule } from '../app/product-routing/product-routing.mod
     CervicalComponent,
     StonesComponent,
     WatchComponent,
-    BraceletComponent
+    BraceletComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule, AppRoutingModule, ProductRoutingModule

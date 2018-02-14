@@ -13,10 +13,11 @@ import { CervicalComponent } from '../cervical/cervical.component';
 import { BraceletComponent } from '../bracelet/bracelet.component';
 import { StonesComponent } from '../stones/stones.component';
 import { WatchComponent } from '../watch/watch.component';
-
+import { AboutComponent } from '../about/about.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
+  { path: 'about', component: AboutComponent},
   { path: 'product', component: ProductsComponent, children: [
     { path: '', component: Nm4000PComponent},
     {  path: 'NM-4000P', component: Nm4000PComponent},
@@ -31,6 +32,7 @@ const routes: Routes = [
     { path: 'Tourmanium-Bracelet', component: BraceletComponent },
   ]},
   { path: 'contact', component: ContactComponent },
+
 
 
   // otherwise redirect to Home

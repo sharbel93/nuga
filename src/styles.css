@@ -3,9 +3,36 @@
 
 
 * {
+
     color: #665544;
     text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Amiko', sans-serif; */
+    /* font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 20px; */
 }
+
+body {
+margin: 0px;
+padding: 0px;
+font-family: 'Lato', sans-serif;
+line-height: 25px;
+font-size: 18px;
+overflow: scroll;
+}
+/* article,p,li {
+  font-family: 'Lato', sans-serif;
+  line-height: 20px;
+  font-size: 18px;
+
+} */
+
+article,h6 {
+  color: #0275d8;
+  font-family: 'Amiko', sans-serif;
+}
+
 
 header, section, footer, aside, nav, article, figure, figcaption {
     display: block;
