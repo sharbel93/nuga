@@ -43,7 +43,7 @@ import { ProductRoutingModule } from '../app/product-routing/product-routing.mod
     BraceletComponent
   ],
   imports: [
-    BrowserModule, AppRoutingModule,ProductRoutingModule 
+    BrowserModule, AppRoutingModule, ProductRoutingModule
     // AngularFireModule.initializeApp(environment.firebase),
     // AngularFirestoreModule, // imports firebase/firestore, only needed for database features
     // AngularFireAuthModule, // imports firebase/auth, only needed for auth features,
