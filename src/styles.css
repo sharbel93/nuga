@@ -77,6 +77,22 @@ ul.product {
 list-style-type: none;
 }
 
+.connect ul li {
+  display: inline;
+  height: 30px;
+  list-style-type: none;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.connect ul li a{
+  display: table-row;
+  height: 30px;
+  list-style-type: none;
+  vertical-align: middle;
+  border-radius: 8px;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {  }
 
