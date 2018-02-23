@@ -3,6 +3,14 @@
   margin-top: 20px;
 }
 
+.home-last {
+  padding-top: 30px;
+}
+.bottom-card {
+  margin-top:20px;
+  padding-top: 20px;
+
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {

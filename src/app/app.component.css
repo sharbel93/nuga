@@ -5,13 +5,30 @@
 
 }
 
+.ft-padding {
+  padding-top: 40px;
+}
+
 .ft-img {
   padding: 50px;
 }
 
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {  }
+@media (max-width: 575.98px) {
+  .ft {
+    background-image: url("../assets/small-footer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px;
+  }
+
+  .ft-padding {
+    padding-top: 0px;
+  }
+ }
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {  }
+@media (max-width: 767.98px) {  
+ 
+}
