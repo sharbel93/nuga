@@ -4,8 +4,12 @@
 
     <div class="col " style="background-color:white;">
         <ul class="breadcrumb">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Product</a></li>
+            <li>
+                <a [routerLink]="['/']" >Home</a>
+              </li>
+              <li>
+                <a [routerLink]="['/product']" >Product</a>
+              </li>
             <li>NM-80</li>
           </ul>
       </div>
@@ -16,8 +20,7 @@
   <h5>Tourmanium Heat Mat</h5>
    <div id="content">
       <figure class="figure">
-          <img src="../../assets/NM-80.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-          <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          <img src="../../assets/NM-80.png" class="figure-img img-fluid rounded" alt="pic" />
         </figure>
         <h1> Product Details</h1>
 <article>
@@ -50,40 +53,70 @@
           Product Features
         </div>
         <div class="card-body">
-          <h6>CONTROL</h6>
-          <p>NM-80 Control pad sets temperature conveniently with an easy dial control.</p>
-          <p>The temperature can be set between 30 to 70 degrees and the NM-80 automatically switches off
-            after 8 Hours of continual use for safety purposes.
-          </p>
-          <hr>
-          <h6>FAR INFRARED RAYS(FIR)</h6>
-          <p>FIR is emitted from the Sun and from our human body in nature. FIR is non-invasive, but reaches deep into
-            the nerves and muscles, providing deep heat therapy and many other health benefits.
-          </p>
-          <p>It boosts the body's healing ability by increasing the metabolism and immune system, helping to detoxify the blood
-            and also promotes weight loss.
-          </p>
-          <hr>
-          <h6>ANIONS</h6>
-          <p>Anions are the negatively charged Ions which are abundant in nature, such places include mountains,
-            forests and under waterfalls.
-          </p>
-          <p>Anions help to relax, refresh and rejuvenate the human body.</p>
-          <p>It helps you to recover faster from exhaustion and fatigue, calm the mind and normalizes the body.</p>
-          <hr>
-          <h6>DEEP HEAT</h6>
-          <p>Widely used in physio & sports therapies. Its therapeutic effects include: relief of joint
-            stiffness and pain, inflammation reduction, muscle relaxation and improvement of blood circulation.
-          </p>
-          <p>It also boosts the recovery process from athletic injuries, fatigue and tiredness.</p>
-          <hr>
-          <h6>ACUPRESSURE</h6>
-          <p>Complementary technique developed from Acupuncture.</p>
-          <p>Acupressure uses finger pressure to stimulate meridian paths to relax the muscles, removes bodily
-            disfunctions which cause pains in the body.
-          </p>
-          <p>It is an stimulation which is widely used in therapies and also in marital arts.</p>
-        </div>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td><img src="../../assets/control.jpg" class="rounded float-left img_pro" alt="pic"></td>
+                        <td>
+                            <h6>CONTROL</h6>
+                            <p>NM-80 Control pad sets temperature conveniently with an easy dial control.</p>
+                            <p>The temperature can be set between 30 to 70 degrees and the NM-75 automatically switches off after 8
+                              Hours of continual use for safety purposes.
+                            </p>
+                        </td>
+                      </tr>
+
+                      <tr>
+                          <td><img src="../../assets/FIR.jpg" class="rounded float-left img_pro" alt="pic"></td>
+                          <td>
+                              <h6>FAR INFRARED RAYS(FIR)</h6>
+                              <p>FIR is emitted from the Sun and from our human body in nature. FIR is non-invasive, but reaches deep into
+                                the nerves and muscles, providing deep heat therapy and many other health benefits.
+                              </p>
+                              <p>It boosts the body's healing ability by increasing the metabolism and immune system, helping to detoxify the blood
+                                and also promotes weight loss.
+                              </p>
+
+                          </td>
+                        </tr>
+
+                        <tr>
+                            <td><img src="../../assets/anions.jpg" class="rounded float-left img_pro" alt="pic"></td>
+                            <td>
+                                <h6>ANIONS</h6>
+                                <p>Anions are the negatively charged Ions which are abundant in nature, such places include mountains,
+                                  forests and under waterfalls.
+                                </p>
+                                <p>Anions help to relax, refresh and rejuvenate the human body.</p>
+                                <p>It helps you to recover faster from exhaustion and fatigue, calm the mind and normalizes the body.</p>
+                            </td>
+                          </tr>
+
+                          <tr>
+                              <td><img src="../../assets/deep heat.jpg" class="rounded float-left img_pro" alt="pic"></td>
+                              <td>
+                                  <h6>DEEP HEAT</h6>
+                                  <p>Widely used in physio & sports therapies. Its therapeutic effects include: relief of joint
+                                    stiffness and pain, inflammation reduction, muscle relaxation and improvement of blood circulation.
+                                  </p>
+                                  <p>It also boosts the recovery process from athletic injuries, fatigue and tiredness.</p>
+                              </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="../../assets/acupressure.jpg" class="rounded float-left img_pro" alt="pic"></td>
+                                <td>
+                                    <h6>ACUPRESSURE</h6>
+                                    <p>Complementary technique developed from Acupuncture.</p>
+                                    <p>Acupressure uses finger pressure to stimulate meridian paths to relax the muscles, removes bodily
+                                      disfunctions which cause pains in the body.
+                                    </p>
+                                    <p>It is an stimulation which is widely used in therapies and also in marital arts.</p>
+                                </td>
+                              </tr>
+                </tbody>
+                </table>
+                </div>
         </div>
 </article>
 

@@ -1,6 +1,15 @@
+
+.img-intro{
+  height: 50%;
+}
+
 #home_intro {
   padding: 30px;
   margin-top: 20px;
+}
+#header_text {
+  font-size: 24px;
+  padding-bottom: 30px;
 }
 
 .home-last {
@@ -12,11 +21,61 @@
 
 }
 
+
+
+.home_products{
+  float:left;
+   width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.home_products_text {
+  font-weight: 900;
+  color: cornflowerblue;
+  text-align: right;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.home_products_more{
+  float: right;
+  color:rgba(221, 0, 37, 0.904);
+  font-weight: 600;
+  font-size: small;
+}
+
+.home_products_more a:hover {
+  background-color: rgb(255, 190, 203);
+  text-decoration-style: none;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .img-intro {
-    height: 250px;
+    height: 10%;
   }
+
+  #header_text {
+    font-size: 14px;
+  }
+
+  .home_products_text{
+    font-size: small;
+    padding-left: 10px;
+  }
+
+  .home-products{
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+  }
+
+  #home_products_list{
+    padding-bottom: 20px;
+    width: 120%;
+  }
+
  }
 
 /* Small devices (landscape phones, less than 768px) */

@@ -3,8 +3,12 @@
 
     <div class="col " style="background-color:white;">
         <ul class="breadcrumb">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Product</a></li>
+            <li>
+                <a [routerLink]="['/']" >Home</a>
+              </li>
+              <li>
+                <a [routerLink]="['/product']" >Product</a>
+              </li>
             <li>NM-4000P</li>
           </ul>
       </div>
@@ -14,8 +18,8 @@
   <h5>All-in-One Theraupeutic Medical Equipment</h5>
    <div id="content">
       <figure class="figure">
-          <img src="../../assets/NM-4000P.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-          <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          <img src="../../assets/NM-4000P.png" class="figure-img img-fluid rounded" alt="pic">
+
         </figure>
         <h1> Product Details</h1>
 <article>
@@ -36,59 +40,83 @@
     NM-4000P, the personal heater</p>
     <p>The updated features of the NM-4000P are detailed below.</p>
 
-    <div class="card card-outline-secondary my-4">
+    <div class="card card-outline-secondary my-4 ">
       <div class="card-header">
         Product Features
       </div>
-      <div class="card-body">
-       <h6>TOURMANIUM INTERNAL PROJECTOR</h6>
-    <p>The Internal Projector moves smoothly along the spinal contour, providing Chu'Na therapy, Acupreesure, Massage, Deep Heat
-    and Moxibustion as well as Far Infrared Ray and Anion therapies. The rollers gently expnad the spinal column to correct posture
-    and relieve abnormal pressure.</p>
-    <ul>
-    <li>The Internal Projector Rollers have been upgraded to our patented Tourmanium Ceramic whereas the previous model utilised Jade Stones,
-    this increases the emittance of FIR and Anions 4 fold.</li>
-    <li>The diameter of the Roller has been enlarged to increase the Moxibustion effects to the Spinal Contour.</li>
-    </ul>
-        <hr>
-        <h6>TOURMANIUM HEAT MAT</h6>
-        <p>A specially created auxiliary mat with Tourmanium ceramic provides the user with acupressure
-          sensations, deep heat, FIR and Anions.
-        </p>
-        <ul>
-        <li>Mat size has been increased from the previous model with 14 additional Tourmanium ceramics added.</li>
-        </ul>
-        <hr>
-        <h6>TOURMANIUM HEAT MAT</h6>
-        <p>A specially created auxiliary mat with Tourmanium ceramic provides the user with acupressure
-          sensations, deep heat, FIR and Anions.
-        </p>
-        <hr>
-        <h6>EXTERNAL TOURMANIUM 5 BALL PROJECTOR</h6>
-        <p>The External Projector has been ergonomically designed for personalized and highly-targeted therapy.
-        With the constant emission of Far Infrared Rays and Anions. It can be effective when placed on many areas of the body including, 
-        but not limited to; the stomach, behind the neck, the armpits and the groin.</p>
-        <hr>
-        <h6> TENS-LOW FREQUENCY PAD</h6>
-      <p>The Low Frequency waves automatically transforms the polarity of the body pathogens.
-      The resulting effects enhance the sympathetic muscle movements, normalise nerve actions
-      and reduce the number of fat cells in locaal areas and within bodily organ.</p>
-      <hr>
-      <h6>INCLINING POSITION</h6>
-      <p>The Frame of the NM-4000P can be adjusted to incline at angles of 10,20, or30 degrees,
-      to suit your specific physical condition, or to allow for watching TV or reading whilst you
-      are being treated. Other adjustments can also be made, depending on which part of the body 
-      you wish to use the product for.</p>
-      <hr>
-      <h6>MULTIFUNCTION REMOTE CONTROL</h6>
-      <p>Easy button operation allows convenient selection of desired functions.(Controlling 5 different
-      Modes of Internal Projector, Temperature of External Projector and 6 Levels of LF Pad)
-      Large display panels aid easy viewing of the temperatures. Remote Control holder permits easy handling
-      and storage of the remote. </p>
-      <hr>
-      <h6>SIMULTANEOUS MULTIUSER SESSION</h6>
-      <p>Connector panel allows the use of External Projector, LF Pad and the Remote Control ith separate connection
-      terminals provided for convenient use. Thus, three different persons may use the product simultaneously.</p>
+      <div class="card-body ">
+        <table class=" table col-12 col-xs-12">
+          <tbody class="col-12 col-xs-12">
+            <tr >
+              <td ><img src="../../assets/T_internal_projector.jpg" class="rounded float-left img_pro" alt="pic"></td>
+              <td > <h6>TOURMANIUM INTERNAL PROJECTOR</h6>
+                <p>The Internal Projector moves smoothly along the spinal contour, providing Chu'Na therapy, Acupreesure, Massage, Deep Heat
+                and Moxibustion as well as Far Infrared Ray and Anion therapies. The rollers gently expnad the spinal column to correct posture
+                and relieve abnormal pressure.</p>
+                  <p>The Internal Projector Rollers have been upgraded to our patented Tourmanium Ceramic whereas the previous model utilised Jade Stones,
+                      this increases the emittance of FIR and Anions 4 fold.</p>
+                <p>The diameter of the Roller has been enlarged to increase the Moxibustion effects to the Spinal Contour.</p>
+              </td>
+            </tr>
+
+            <tr>
+                <td> <img src="../../assets/t_heat_mat.jpg" class="rounded float-left img_pro" alt="pic"></td>
+                <td> <h6>TOURMANIUM HEAT MAT</h6>
+                  <p>A specially created auxiliary mat with Tourmanium ceramic provides the user with acupressure
+                     sensations, deep heat, FIR and Anions.
+                   </p>
+                </td>
+              </tr>
+
+              <tr>
+                  <td><img src="../../assets/external 5 ball.jpg" class="rounded float-left img_pro" alt="pic"></td>
+                  <td> <h6>EXTERNAL TOURMANIUM 5 BALL PROJECTOR</h6>
+                    <p>The External Projector has been ergonomically designed for personalized and highly-targeted therapy.
+                    With the constant emission of Far Infrared Rays and Anions. It can be effective when placed on many areas of the body including,
+                    but not limited to; the stomach, behind the neck, the armpits and the groin.</p>
+                  </td>
+                </tr>
+
+                <tr>
+                    <td><img src="../../assets/tens.jpg" class="rounded float-left img_pro" alt="pic"></td>
+                    <td>
+                        <h6> TENS-LOW FREQUENCY PAD</h6>
+                        <p>The Low Frequency waves automatically transforms the polarity of the body pathogens.
+                        The resulting effects enhance the sympathetic muscle movements, normalise nerve actions
+                        and reduce the number of fat cells in locaal areas and within bodily organ.</p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                      <td><img src="../../assets/inclining position.jpg" class="rounded float-left img_pro" alt="pic"></td>
+                      <td>
+                          <h6>INCLINING POSITION</h6>
+                          <p>The Frame of the NM-4000P can be adjusted to incline at angles of 10,20, or30 degrees,
+                          to suit your specific physical condition, or to allow for watching TV or reading whilst you
+                          are being treated. Other adjustments can also be made, depending on which part of the body
+                          you wish to use the product for.</p>
+                      </td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="../../assets/multifunction remote.jpg" class="rounded float-left img_pro" alt="pic"></td>
+                        <td>
+                            <h6>MULTIFUNCTION REMOTE CONTROL</h6>
+                            <p>Easy button operation allows convenient selection of desired functions.(Controlling 5 different
+                            Modes of Internal Projector, Temperature of External Projector and 6 Levels of LF Pad)
+                            Large display panels aid easy viewing of the temperatures. Remote Control holder permits easy handling
+                            and storage of the remote. </p>
+                        </td>
+                      </tr>
+
+                      <tr>
+                          <td><img src="../../assets/simultaneous multiuser.jpg" class="rounded float-left img_pro" alt="pic"></td>
+                          <td> <h6>SIMULTANEOUS MULTIUSER SESSION</h6>
+                            <p>Connector panel allows the use of External Projector, LF Pad and the Remote Control ith separate connection
+                            terminals provided for convenient use. Thus, three different persons may use the product simultaneously.</p></td>
+                        </tr>
+          </tbody>
+        </table>
       </div>
     </div>
     <!-- /.card -->

@@ -4,8 +4,12 @@
 
     <div class="col " style="background-color:white;">
         <ul class="breadcrumb">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Product</a></li>
+            <li>
+                <a [routerLink]="['/']" >Home</a>
+              </li>
+              <li>
+                <a [routerLink]="['/product']" >Product</a>
+              </li>
             <li>TOURMANIUM STONES</li>
           </ul>
       </div>
@@ -15,8 +19,8 @@
   <h2>TOURMANIUM STONES</h2>
    <div id="content">
       <figure class="figure">
-          <img src="../../assets/tourmanium_stone.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-          <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          <img src="../../assets/tourmanium_stone.png" class="figure-img img-fluid rounded" alt="pic">
+
         </figure>
         <h1> Product Details</h1>
 <article>
@@ -35,22 +39,36 @@
               Product Features
             </div>
             <div class="card-body">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td><img src="../../assets/FIR.jpg" class="rounded float-left" alt="pic"></td>
+                            <td>
+                                <h6>FAR INFRARED RAYS(FIR)</h6>
+                                <p>FIR is emitted from the Sun and from our human body in nature. FIR is non-invasive, but reaches deep into
+                                  the nerves and muscles, providing deep heat therapy and many other health benefits.
+                                </p>
+                                <p>It boosts the body's healing ability by increasing the metabolism and immune system, helping to detoxify the blood
+                                  and also promotes weight loss.
+                                </p>
 
-              <h6>FAR INFRARED RAYS(FIR)</h6>
-              <p>FIR is emitted from the Sun and from our human body in nature. FIR is non-invasive, but reaches deep into
-                the nerves and muscles, providing deep heat therapy and many other health benefits.
-              </p>
-              <p>It boosts the body's healing ability by increasing the metabolism and immune system, helping to detoxify the blood
-                and also promotes weight loss.
-              </p>
-              <hr>
-              <h6>ANIONS</h6>
-              <p>Anions are the negatively charged Ions which are abundant in nature, such places include mountains,
-                forests and under waterfalls.
-              </p>
-              <p>Anions help to relax, refresh and rejuvenate the human body.</p>
-              <p>It helps you to recover faster from exhaustion and fatigue, calm the mind and normalizes the body.</p>
-              </div>
+                            </td>
+                          </tr>
+
+                          <tr>
+                              <td><img src="../../assets/anions.jpg" class="rounded float-left" alt="pic"></td>
+                              <td>
+                                  <h6>ANIONS</h6>
+                                  <p>Anions are the negatively charged Ions which are abundant in nature, such places include mountains,
+                                    forests and under waterfalls.
+                                  </p>
+                                  <p>Anions help to relax, refresh and rejuvenate the human body.</p>
+                                  <p>It helps you to recover faster from exhaustion and fatigue, calm the mind and normalizes the body.</p>
+                              </td>
+                            </tr>
+                    </tbody>
+                    </table>
+                          </div>
               </div>
 </article>
 

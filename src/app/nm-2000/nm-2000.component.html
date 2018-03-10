@@ -4,8 +4,12 @@
 
     <div class="col " style="background-color:white;">
         <ul class="breadcrumb">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Product</a></li>
+            <li>
+                <a [routerLink]="['/']" >Home</a>
+              </li>
+              <li>
+                <a [routerLink]="['/product']" >Product</a>
+              </li>
             <li>NM-2000</li>
           </ul>
       </div>
@@ -16,8 +20,7 @@
   <h5>Tourmanium 9 + 5 Ball Projector</h5>
    <div id="content">
       <figure class="figure">
-          <img src="../../assets/NM-2000.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-          <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          <img src="../../assets/NM-2000.png" class="figure-img img-fluid rounded" alt="pic" />
         </figure>
         <h1> Product Details</h1>
 <article>

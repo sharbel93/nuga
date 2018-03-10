@@ -1,8 +1,30 @@
 
 
-
+/*
 .nav-item {
   margin-left:200px;
 
+} */
+#menu_1{
+ width: 20%;
+
 }
 
+#menu_2{
+  width: 20%;
+}
+#menu_3{
+  width: 20%;
+}
+#menu_4{
+  width: 20%;
+}
+
+li.nav-item a:hover {
+  background-color: rgb(255, 60, 102);
+
+}
+
+a.nav-link {
+  color:  rgb(255, 0, 85);
+}

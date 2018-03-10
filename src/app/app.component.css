@@ -1,34 +1,35 @@
 .ft {
-  background-image: url("../assets/footer_background_image.png");
+  /* background-image: url("../assets/footer_background_image.png");
   background-repeat: no-repeat;
-  background-position: center;
-
+  background-position: center; */
+  margin-top: 20px;
+background-color: #80deea;
 }
 
 .ft-padding {
-  padding-top: 40px;
+padding: 30px;
 }
 
 .ft-img {
-  padding: 50px;
+  padding: 10px;
 }
 
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .ft {
-    background-image: url("../assets/small-footer.png");
+    /* background-image: url("../assets/small-footer.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
     padding: 15px;
   }
 
-  .ft-padding {
+  /* .ft-padding {
     padding-top: 0px;
-  }
+  } */
  }
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {  
- 
+@media (max-width: 767.98px) {
+
 }
