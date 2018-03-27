@@ -13,7 +13,7 @@ import { StonesComponent } from '../stones/stones.component';
 import { WatchComponent } from '../watch/watch.component';
 
 const routes: Routes = [
-  { path: 'product', component: ProductsComponent, 
+  { path: 'product', component: ProductsComponent,
   children: [
     { path: '', component: Nm4000PComponent, pathMatch: 'full'},
     {  path: 'NM-4000P', component: Nm4000PComponent},
